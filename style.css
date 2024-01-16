@@ -42,19 +42,21 @@ li {
   font-weight: 800;
   margin-right: 100px;
 }
-
+/* nav work done  */
 .banner-continer {
   max-width: 1100px;
   height: 500px;
+
   background-image: url(Images/banner.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   align-items: center;
   border-radius: 16px;
-  
+
 }
 .banner-tittel {
+  
   color: #fff;
   font-family: Mulish;
   font-size: 64px;
@@ -63,8 +65,7 @@ li {
   line-height: normal;
   text-align: center;
   align-items: center;
-  padding-top: 50px;
-  
+  padding-top: 70px;
 }
 .banner-dis {
   color: #fff;
@@ -107,9 +108,280 @@ li {
   line-height: normal;
   padding: 10px;
 }
+/* Banner Done  */
 
-/* nav work done  */
+.section-continer {
+  display: flex;
+  gap: 5px;
+}
+.sectiontitel,
+li {
+  text-align: left;
+}
+.sectiontittel {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.sectiontittel li,
+p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.redmore {
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 10px;
+}
+.Destination {
+  margin-top: 100px;
+}
+.Destination-tittel {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.Destinationpera {
+  color: rgba(21, 21, 19, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
 
+.continer-one {
+  display: flex;
+  max-width: 1100px;
+  height: 200px;
+}
+.row-one {
+  width: 100%;
+  padding: 5px;
+}
+.row-onee {
+  padding: 7px;
+}
+.continer-two {
+  display: flex;
+  display: flex;
+  max-width: 1100px;
+  height: 270px;
+  background-size: cover;
+  background-position: center;
+}
+
+.continer-three {
+  display: flex;
+  max-width: 1100px;
+  height: 200px;
+}
+.chooseush {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.chooseusp {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.servis-continer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-around;
+}
+.servis-logo {
+  width: 50px;
+}
+
+.sercis-card {
+  width: 500px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 10px;
+}
+.sercis-cardtwo {
+  width: 500px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 10px;
+}
+
+.servis {
+  align-items: center;
+  justify-content: center;
+}
+.servies-cardthree {
+  width: 500px;
+  height: 250px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 280px;
+}
+
+.discount {
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 10px;
+}
+.discount-tittel {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* .discount-gallery {
+  max-width: 1100px;
+  height: 500px;
+  background-image: url(Images/Group\ 39.png);
+  border-radius: 10px;
+  margin-top: 50px;
+
+}
+.booking-icon {
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+
+.text-gallery {
+  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  padding: 15px;
+}
+.textg {
+  padding: 25px;
+}
+.from {
+  display: flex;
+  gap: 10px;
+}
+.fromlast {
+  padding: 15px;
+  margin: 5px;
+}
+.lastbtn {
+  padding: 15px;
+  margin: 5px;
+  border-radius: 8px;
+background: #FF5400;
+color: aliceblue;
+border: 0px;
+
+}
+
+.lastfrom{
+  border: 1px solid #FF5400;
+display: flex;
+flex-direction: column;
+width: 400px;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0px 5px 20px 1px;
+margin-bottom: 50px;
+}
+
+.last-img {
+  width: 1000px;
+  height: 400px;
+  margin-left: 90px;
+  padding: 15px;
+  margin-bottom: 50px;
+
+}
+.fot {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 100px;
+}
+footer {
+  border: 1px solid #FF5400;
+  width: 1070px;
+  
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+  align-items: center;
+  margin-top: 100px auto;
+}
+
+.socilamediicon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footersocialmedia {
+  width: 40px;
+  }
+  .footersocialmediainsta {
+    width: 28px;
+
+  }
+.footercopyright {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.footertittel {
+  color: #FF5400;
+
+}
+
+/* ------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
   body {
     margin-left: 10px;
