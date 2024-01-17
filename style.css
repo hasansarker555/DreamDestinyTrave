@@ -46,17 +46,14 @@ li {
 .banner-continer {
   max-width: 1100px;
   height: 500px;
-
   background-image: url(Images/banner.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   align-items: center;
   border-radius: 16px;
-
 }
 .banner-tittel {
-  
   color: #fff;
   font-family: Mulish;
   font-size: 64px;
@@ -89,7 +86,6 @@ li {
 
 .formtext {
   padding: 10px;
-
   text-align: center;
   font-family: Mulish;
   font-size: 16px;
@@ -270,32 +266,73 @@ p {
   line-height: normal;
 }
 
-/* .discount-gallery {
-  max-width: 1100px;
+.discount-gallery {
+  width: 1100px;
   height: 500px;
   background-image: url(Images/Group\ 39.png);
   border-radius: 10px;
   margin-top: 50px;
-
 }
-.booking-icon {
-  width: 579px;
-  height: 389px;
-  flex-shrink: 0;
+.discount-gallery-two {
+  width: 1100px;
+  height: 500px;
+  background-image: url(Images/Group\ 40.png);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.discount-gallery-three {
+  width: 1100px;
+  height: 500px;
+  background-image: url(Images/Group\ 39.png);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.box {
+  width: 500px;
+  height: 300px;
+  border: 5px solid violet;
+  justify-content: center;
+  margin-top: 50px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 500px;
+  box-shadow: 0px 5px 20px 10px;
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(2px);
+  padding: 25px;
+}
+.toure-price {
+  margin-top: 15px;
+  color: #FF5400;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.toure-btn {
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+.toure-btn:hover {
+background-color: #FFC300; 
+transition-duration: 0.4s; }
+
+.booking-icon {
   display: flex;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-
-} */
-
+  gap: 10px;
+}
 
 .text-gallery {
-  
   display: flex;
   align-items: center;
   gap: 10px;
@@ -317,21 +354,25 @@ p {
   padding: 15px;
   margin: 5px;
   border-radius: 8px;
-background: #FF5400;
-color: aliceblue;
-border: 0px;
-
+  background: #ff5400;
+  color: aliceblue;
+  border: 0px;
 }
 
-.lastfrom{
-  border: 1px solid #FF5400;
-display: flex;
-flex-direction: column;
-width: 400px;
-padding: 15px;
-border-radius: 10px;
-box-shadow: 0px 5px 20px 1px;
-margin-bottom: 50px;
+.lastbtn:hover {
+  background-color: #FFC300; 
+  transition-duration: 0.4s;
+}
+
+.lastfrom {
+  border: 1px solid #ff5400;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px 1px;
+  margin-bottom: 50px;
 }
 
 .last-img {
@@ -340,7 +381,6 @@ margin-bottom: 50px;
   margin-left: 90px;
   padding: 15px;
   margin-bottom: 50px;
-
 }
 .fot {
   display: flex;
@@ -349,9 +389,9 @@ margin-bottom: 50px;
   margin-top: 100px;
 }
 footer {
-  border: 1px solid #FF5400;
+  border: 1px solid #ff5400;
   width: 1070px;
-  
+
   flex-shrink: 0;
   background: rgba(19, 19, 24, 0.05);
   align-items: center;
@@ -363,47 +403,47 @@ footer {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  
 }
 .footersocialmedia {
   width: 40px;
-  }
-  .footersocialmediainsta {
-    width: 28px;
-
-  }
+}
+.footersocialmediainsta {
+  width: 28px;
+}
 .footercopyright {
   text-align: center;
   margin-bottom: 100px;
 }
 .footertittel {
-  color: #FF5400;
-
+  color: #ff5400;
 }
 
 /* ------------------------------------------------------------- */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     margin-left: 10px;
     margin-right: 10px;
   }
 
-  nav,
-  ul,
-  li {
+  .navlogo {
     flex-direction: column;
   }
-  .banner-title {
-    font-size: 24px;
-    padding-top: 10px;
+
+  nav,
+  ul {
+    flex-direction: column;
   }
 
-  .banner-desc {
-    font-size: 12px;
-    line-height: 16px;
+  .nav-tittel {
+    margin-right: 0;
+  }
+  .banner-tittel {
+    font-size: 28px; /* Adjust font size for smaller screens */
+    padding-top: 20px;
   }
 
-  .form-text {
+  .banner-dis {
     font-size: 12px;
+    line-height: 16px; /* Adjust line-height for smaller screens */
   }
 }
