@@ -438,12 +438,12 @@ footer {
     margin-right: 0;
   }
   .banner-tittel {
-    font-size: 28px; /* Adjust font size for smaller screens */
+    font-size: 28px; 
     padding-top: 20px;
   }
 
   .banner-dis {
     font-size: 12px;
-    line-height: 16px; /* Adjust line-height for smaller screens */
+    line-height: 16px; 
   }
 }
